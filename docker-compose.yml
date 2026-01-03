@@ -1,0 +1,11 @@
+services:
+  airflow:
+    build: .
+    container_name: airflow
+    ports:
+      - "8081:8080"
+    volumes:
+      - .:/opt/airflow
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+    command: standalone

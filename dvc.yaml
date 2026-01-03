@@ -1,0 +1,7 @@
+stages:
+  train:
+    cmd: python scripts/train.py
+    deps:
+      - data/weather.csv
+    outs:
+      - models/model.pkl
