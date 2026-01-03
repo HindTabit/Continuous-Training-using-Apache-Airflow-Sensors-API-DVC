@@ -43,19 +43,6 @@ Ces données servent d’exemple de flux de données dynamiques déclenchant le 
 
 ---
 
-## 📂 Structure du projet
-
-├── dags/
-│ └── continuous_training_dag.py
-├── data/
-├── models/
-├── Dockerfile
-├── docker-compose.yml
-├── requirements.txt
-├── dvc.yaml
-└── README.md
-
-
 ⚠️ **Remarque :** les dossiers `data` et `models` doivent être vides au début avant de lancer le pipeline automatiquement.
 
 ---
